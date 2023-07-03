@@ -1,0 +1,16 @@
+{
+  "name": "slack-bot-api",
+  "version": "1.0.0",
+  "description": "Bot to fetch list of messages send by Geekbot and repost as a threaded message",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/web-api": "^6.8.1",
+    "aws-sdk": "^2.1360.0",
+    "dotenv": "^16.0.3"
+  }
+}
